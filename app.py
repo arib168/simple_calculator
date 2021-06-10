@@ -1,5 +1,5 @@
 import streamlit as st 
-
+  
 st.title("Basic Calculator")
 a = st.slider("Select the first number :", 0,100)    # User input for first number 
 b = st.slider("Select the second number :", 0 ,100)  # User input for second number 
